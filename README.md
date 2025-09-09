@@ -6,4 +6,4 @@ I'm learning!
 
 
 Git Version Control
-> This is now a Git version control demo page for Frontend Now.
+> This is now evolving to a Git version control demo page for Frontend Now. An attempt at least.
