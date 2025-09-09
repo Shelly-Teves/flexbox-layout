@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- testing comment change for git/hub 1 -->
+<!--- testing: add repository to github "flexbox-layout" --->
+
+<body>
+    <h1>Flexbox CSS Tutorial</h1>
+
+    <h2>1. Basic Flexbox Container</h2>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>2. Flex Direction</h2>
+    <div class="container" style="flex-direction: column;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>3. Justify Content</h2>
+    <div class="container" style="justify-content: space-between;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>4. Align Items</h2>
+    <div class="container" style="align-items: center;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>5. Flex Wrap</h2>
+    <div class="container" style="flex-wrap: wrap; height: 200px;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+        <div class="box">Box 6</div>
+        <div class="box">Box 7</div>
+        <div class="box">Box 8</div>
+        <div class="box">Box 9</div>
+        <div class="box">Box 10</div>
+    </div>
+
+    <h2>6. Align Self</h2>
+    <div class="container" style="height: 200px;">
+        <div class="box" style="align-self: flex-start;">Box 1</div>
+        <div class="box" style="align-self: center;">Box 2</div>
+        <div class="box" style="align-self: flex-end;">Box 3</div>
+        <div class="box" style="align-self: stretch;">Box 4</div>
+        <div class="box" style="align-self: baseline;">Box 5</div>
+    </div>
+
+    <h2>7. Flex Grow, Shrink, and Basis</h2>    
+    <div class="container" style="height: 200px;">
+        <div class="box" style="flex-grow: 2; flex-shrink: 1; flex-basis: 100px;">Box 1</div>
+        <div class="box" style="flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">Box 2</div>
+        <div class="box" style="flex-grow: 1; flex-shrink: 0; flex-basis: 100px;">Box 3</div>
+        <div class="box" style="flex-grow: 0; flex-shrink: 1; flex-basis: 100px;">Box 4</div>
+        <div class="box" style="flex-grow: 1; flex-shrink: 1; flex-basis: 50px;">Box 5</div>
+    </div>
+
+    
+
+
+
+    
+</body>
+</html>

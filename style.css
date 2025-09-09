@@ -1,0 +1,26 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            border: 2px solid #000;
+            height: 300px;
+            margin-bottom: 40px;
+        }
+        .box {
+            background-color: #76b5c5;
+            border: 2px solid #444;
+            color: white;
+            padding: 20px;
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 5px;
+        }
+
+        h2, h3 {
+            margin: 40px;
+        }
+
+        /* testing: add to repository in github "flexbox-layout".
+        */
