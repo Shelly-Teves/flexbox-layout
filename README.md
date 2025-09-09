@@ -5,5 +5,5 @@ So please forgive me hehe
 I'm learning!
 
 
-#Git Version Control
-This is now a Git version control demo page for Frontend Now.
+# Git Version Control
+This is now evolving to be a Git version control demo page for Frontend Now. An attempt at least
